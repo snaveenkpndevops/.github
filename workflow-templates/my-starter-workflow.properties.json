@@ -1,7 +1,7 @@
 {
   "name": "My Starter Workflow",
   "description": "A simple starter workflow to print a Hello World message.",
-  "iconName": "workflow",  // Uses GitHub's workflow-related icons
+  "iconName": "Default Screensleeptime.png",  // Uses GitHub's workflow-related icons
   "categories": ["Utility", "Code Scanning"],  // Tags for filtering workflows
   "filePatterns": ["*.tf", "*.py"]  // File patterns that suggest this workflow
 }
