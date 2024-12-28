@@ -1,0 +1,12 @@
+name: my-starter-workflow
+
+on:
+  workflow_dispatch:    # This line makes the workflow run only when user's manual trigger (eliminates automatic trigger on push)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: helloworld
+        run: echo 'This is a simple starter workflow'
